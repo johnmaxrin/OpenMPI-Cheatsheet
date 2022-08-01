@@ -24,6 +24,11 @@ It is an object used by the MPI to group those processes which are allowed to co
 Each process within a communicator is assigned an incremental rank. Ranks are primarily used during message sending and receiving for identification purposes.
 #
 
+### Destroy MPI Object
+`MPI_Finalize()`
+A MPI call can no longer be made after this point.
+#
+
 
 
 ### References
