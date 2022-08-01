@@ -13,3 +13,5 @@
 ---
 #### C++
 `mpirun -np # ./bin_name` 
+#### C
+`mpirun -np # ./bin_name` 
