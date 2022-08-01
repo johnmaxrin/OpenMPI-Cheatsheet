@@ -15,4 +15,4 @@
 
 
 ### References
-[MPI Hello World, Wes Kendall](https://mpitutorial.com/tutorials/mpi-hello-world/) 
+[1. MPI Hello World, Wes Kendall](https://mpitutorial.com/tutorials/mpi-hello-world/) 
