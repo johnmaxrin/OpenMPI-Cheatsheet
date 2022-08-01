@@ -8,8 +8,8 @@
 `mpirun -np # ./bin_name` 
 #
 
-### Initialize MPI Environment
-`MPI_Init()`
+### Initializing MPI Environment
+`MPI_Init(int *argc, char ***argv)   //Parameters are Optional.`
 #
 
 
