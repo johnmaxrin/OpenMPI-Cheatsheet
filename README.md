@@ -15,7 +15,7 @@
 ### Returning MPI_COMMUNICATOR Size
 `MPI_Comm_size(MPI_Comm communicator,int *size)`
 ###### What is a Communicator in MPI?
-It is an object used by the MPI to group those processes which are allowed to communicate with each other. *MPI_COMM_WORLD* is the default communicator which contains all the process.
+It is an object used by the MPI to group those processes which are allowed to communicate with each other. The default communicator is *MPI_COMM_WORLD*, which contains all processes.
 #
 
 
