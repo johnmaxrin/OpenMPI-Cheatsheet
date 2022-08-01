@@ -7,7 +7,7 @@
 #### C
 `mpicc sourcecode.c -o bin_name`
 
----
+#
 
 ### Run MPI Programs
 #### C++
@@ -15,4 +15,4 @@
 #### C
 `mpirun -np # ./bin_name` 
 
----
+#
