@@ -29,8 +29,17 @@ Each process within a communicator is assigned an incremental rank. Ranks are pr
 A MPI call can no longer be made after this point.
 #
 
+### MPI Broadcast
+`int MPI_Bcast(void* buffer, int count, MPI_Datatype datatype, int emitter_rank, MPI_Comm communicator);`
+Buffer: Contains the value to be broadcasted.
+Count: Number of elements in the buffer broadcasted.
+Datatype: Type of the buffer element broadcasted.
+Emitter Rank: Rank of process which emitt the buffer.
+Communicator: Communicator in which the broadcast takes palce.
+
 
 
 ### References
 [1. MPI Hello World, Wes Kendall](https://mpitutorial.com/tutorials/mpi-hello-world/) <br>
 [2. Communicators and Groups](http://www.rc.usf.edu/tutorials/classes/tutorial/mpi/chapter9.html)
+[3. About MPI Broadcast](https://rookiehpc.github.io/mpi/docs/mpi_bcast/index.html)
