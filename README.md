@@ -30,12 +30,12 @@ A MPI call can no longer be made after this point.
 #
 
 ### MPI Broadcast
-`int MPI_Bcast(void* buffer, int count, MPI_Datatype datatype, int emitter_rank, MPI_Comm communicator);` <br>
-Buffer: Contains the value to be broadcasted. <br>
-Count: Number of elements in the buffer broadcasted. <br>
-Datatype: Type of the buffer element broadcasted. <br>
-Emitter Rank: Rank of process which emitt the buffer. <br>
-Communicator: Communicator in which the broadcast takes palce. <br>
+`int MPI_Bcast(void* buffer, int count, MPI_Datatype datatype, int emitter_rank, MPI_Comm communicator);` <br> <br>
+<strong>Buffer:</strong> Contains the value to be broadcasted. <br>
+<strong>Count:</strong> Number of elements in the buffer broadcasted. <br>
+<strong>Datatype:</strong> Type of the buffer element broadcasted. <br>
+<strong>Emitter Rank:</strong> Rank of process which emitt the buffer. <br>
+<strong>Communicator:</strong> Communicator in which the broadcast takes palce. <br>
 
 
 
