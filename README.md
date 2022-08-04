@@ -41,5 +41,5 @@ A MPI call can no longer be made after this point.
 
 ### References
 [1. MPI Hello World, Wes Kendall](https://mpitutorial.com/tutorials/mpi-hello-world/) <br>
-[2. Communicators and Groups](http://www.rc.usf.edu/tutorials/classes/tutorial/mpi/chapter9.html)
+[2. Communicators and Groups](http://www.rc.usf.edu/tutorials/classes/tutorial/mpi/chapter9.html) <br>
 [3. About MPI Broadcast](https://rookiehpc.github.io/mpi/docs/mpi_bcast/index.html)
