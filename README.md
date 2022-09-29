@@ -37,6 +37,20 @@ A MPI call can no longer be made after this point.
 <strong>Emitter Rank: &nbsp;</strong> Rank of process which emitt the buffer. <br>
 <strong>Communicator: &nbsp;</strong> Communicator in which the broadcast takes palce. <br>
 
+### MPI Scatter
+`MPI_Scatter(void* send_data,int send_count,MPI_Datatype send_datatype,void* recv_data,int recv_count,MPI_Datatype recv_datatype,int root,MPI_Comm communicator);
+` <br> <br>
+<strong>Send Data: &nbsp;</strong> It is an array of data that resides on the root process.<br>
+<strong>Send Count: &nbsp;</strong> Number of elements in the array to be sent. <br>
+<strong>Send Datatype: &nbsp;</strong> Type of the array element scattered. <br>
+<strong>Recv Data: &nbsp;</strong> It is an array of data that each process gets from root process.<br>
+<strong>Recv Count: &nbsp;</strong> Number of elements in the array received. <br>
+<strong>Recv Datatype: &nbsp;</strong> Type of the array element scattered. <br>
+<strong>Root: &nbsp;</strong> Rank of root process. <br>
+<strong>Communicator: &nbsp;</strong> Communicator in which the broadcast takes palce. <br>
+
+
+
 
 
 ### References
